@@ -1,7 +1,6 @@
 networks:
-  default:
-    external:
-      name: roboshop
+   roboshop:
+      driver: overlay
 
 services:
   # docker run -d --name mongodb --network=roboshop mongodb:1
